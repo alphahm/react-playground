@@ -3,5 +3,6 @@
     "files": [
         "dist/*",
         "index.html"
-    ]
+    ],
+    "notify": false
 }
