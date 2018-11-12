@@ -1,7 +1,8 @@
 {
     "port": 3000,
     "files": [
-        "dist/*",
+        "dist/js/*",
+        "dist/css/*",
         "index.html"
     ],
     "notify": false
