@@ -4,10 +4,11 @@
   "description": "A simple collection of packages to play with react",
   "main": "./src/app.js",
   "scripts": {
+    "postinstall": "node init-dist.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm-run-all --parallel watch serve",
-    "watch": "watchify src/app.js --extension=.jsx -d -o ./dist/bundle.js -v",
-    "build": "browserify src/app.js --extension=.jsx | uglifyjs -mco ./dist/bundle.js",
+    "watch": "watchify src/app.js --extension=.jsx -d -o ./dist/js/bundle.js -v",
+    "build": "browserify src/app.js --extension=.jsx | uglifyjs -mco ./dist/js/bundle.js",
     "serve": "lite-server"
   },
   "browserify": {
