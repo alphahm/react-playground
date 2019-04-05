@@ -4,7 +4,7 @@ Just a simple react playground using babel, browserify and lite-server.
 Just clone, install and run.
 
 ```
-https://github.com/alphahm/react-playground.git
+git clone https://github.com/alphahm/react-playground.git
 `````
 
 ```
