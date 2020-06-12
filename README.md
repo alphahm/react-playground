@@ -1,7 +1,8 @@
 # react-playground
-Just a simple react playground using babel, browserify and lite-server.
+A collection of packages to quickly start playing with [React](https://reactjs.org/ "React").
+This makes use of babel, webpack and lite-server.
 
-Just clone, install and run.
+To start coding, just clone, install and run.
 
 ```
 git clone https://github.com/alphahm/react-playground.git
@@ -18,3 +19,5 @@ npm install
 ```
 npm start
 ```
+
+Entry point is ``src/index.js`` where a **Hello** component (the obligatory Hello World) is rendered into **div#root** in **index.html** located in the root folder. 
